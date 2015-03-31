@@ -1,7 +1,7 @@
 # pkg-config
 pkg-config using C++/QtCore
 
-==Build==
+##Build##
 
 ```
 mkdir build
@@ -11,10 +11,11 @@ qmake ..
 
 Or build it in-tree if you want, I'm not your mom.
 
-==Requirements==
+##Requirements##
+
 A C++ compiler and at least QtCore with development headers and qmake.
 
-==Usage==
+##Usage##
 
 ```
 pkg-config [-A <package config directory>]
@@ -43,7 +44,7 @@ pkg-config [-A <package config directory>]
 * **--cflags** - Output the cflags specified by the package.
 * **--libs** - Output the ldflags (libs) as specified by the package.
 
-==Other Stuff==
+##Other Stuff##
 
 * **Is this XDG/Freedesktop compliant?**
 * Almost certainly not.
